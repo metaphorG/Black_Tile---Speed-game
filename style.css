@@ -1,0 +1,47 @@
+#grid {
+  height: 420px;
+  width: 420px;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.start_btn {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#reload {
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+
+#chooseDifficultyText {
+  margin-top: 150px;
+  margin-left: 35px;
+}
+
+#easy {
+  margin-left: 70px;
+}
+#remainSecond {
+  font-size: 20px;
+  position: absolute;
+  left: 900px;
+  top: 490px;
+  display: none;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 120px;
+    color: gray;
+}
